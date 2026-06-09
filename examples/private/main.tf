@@ -59,7 +59,6 @@ module "bastion" {
     private_only_enabled      = true
     session_recording_enabled = true
     kerberos_enabled          = true
-    ip_connect_enabled        = true
     copy_paste_enabled        = true
     scale_units               = 4
     zones                     = ["1", "2", "3"]
